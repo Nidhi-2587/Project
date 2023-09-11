@@ -1,0 +1,238 @@
+{
+    "intents": [
+        {
+            "tag":"greetings",
+            "patterns": [
+                "Hello",
+                "Hey",
+                "How are you",
+                "Is anyone there",
+                "Good morning",
+                "Good day",
+                "Hi"
+            ],
+            "responses": [
+                "Hey :-)",
+                "Hello, Welcome!!",
+                "Hi there , what can I do for you?",
+                "Hi there, how can I help you?"
+            ]
+        },
+        {
+            "tag":"goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye"
+                
+            ],
+            "responses": [
+                "See you later, thanks for visiting",
+                "Have a nice day",
+                "Bye! Come back again soon.",
+                "Hope the data was useful for you"
+                
+            ]
+        },
+        {
+            "tag":"thanks",
+            "patterns": ["Thanks", "Thank You"," That's helpful","Thanks a lot!!","Okay,thank you"],
+            "responses":["Happy to help","Any time!","My pleasure"]
+        },
+        {
+            "tag":"mobile data",
+            "patterns": [
+                "What plans do you offer for mobile data?"
+                
+           ],
+            "responses":[
+                "We offer a variety of mobile data plans tailored to different usage needs. You can choose from our Basic, Standard, and Premium data plans, each offering different data allowances and features",
+               
+            "Basic,Standard and Premium data plans"]
+        },
+        {
+            "tag":"network_connection",
+            "patterns": [
+                "I'm facing network issues in my area. What should I do?", 
+               
+                "I m having trouble with my network connection"
+               ],
+            "responses":[
+                "I'm sorry to hear that you're experiencing network issues. Please provide me with your current location, including the city and any nearby landmarks. I'll check if there are any ongoing maintenance activities or outages in your area. If not, I'll guide you through some troubleshooting steps to improve your network connection.Can you tell me more about that?",
+                "I am sorry to hear that,Can you tell me more about the problem?"
+            ]
+        },
+        {
+            "tag":"internet_dropping",
+            "patterns":["My internet is really slow and it keeps dropping out"],
+            "responses":["I see. That sounds like a problem with your modem.Can you please check the power and cables to make sure they're connected properly?"]
+        },
+        {
+            "tag":"already checked",
+            "patterns":["Yes,I've already checked that."],
+            "responses":["In that case I would recommend contacting our technical support team for further assistance."]
+        },
+        {
+            "tag":"data usage",
+            "patterns": [
+                "How can I check my current data usage?",
+                "How much data did I consume ?"
+               ],
+            "responses":[
+                "You can easily check your current data usage by logging into your account on our website or using our mobile app. Alternatively, you can text 'USAGE' to 12345 from your registered mobile number, and we'll send you an update on your remaining data balance.",
+                "Dial 12345 from your registered mobile number"
+                
+                
+            ]
+        },
+        {
+            "tag":"International Roaming",
+            "patterns":["How do I activate international roaming?",
+            "What are the steps to activate international roaming?"
+        ],
+            "responses":["To activate international roaming, you can log in to your account on our website or use our mobile app. Navigate to the 'Roaming' section and follow the prompts to activate roaming for the countries you plan to visit. Keep in mind that international roaming rates may apply, so it's a good idea to check our website for the latest rates before your trip.",
+        "In your mobile app navigate to roaming section"]
+        },
+        {
+            "tag":"Plan",
+            "patterns":["How can I change my current plan?",
+                        "How to choose a current plan?"],
+            "responses":["Changing your plan is easy. You can log in to your account, navigate to the 'Plan' section, and select the 'Change Plan' option. Choose the plan that best suits your needs, and the changes will take effect from your next billing cycle.",
+                         "After logging in your account ,check the choose plans option and select the best suited for you."]
+        },
+        {
+            "tag":"Sim card",
+            "patterns":["What's the process for getting a new SIM card?",
+                        "How to get a new Sim card?"],
+            "responses":["To get a new SIM card, you can visit any of our retail stores. Our staff will assist you in selecting the right SIM card for your device and help you with the activation process. Don't forget to bring a valid photo ID for verification.",
+        "Visit our airtel store with a valid photo ID select the sim which you want"]
+        },
+        {
+            "tag":"Voice mail",
+            "patterns":["How do I set up voicemail?",
+        "How to get voice mail?"],
+            "responses":["Dial *123 from your phone and follow the prompts to set up your voicemail box",
+                        "You can record a personalized greeting and manage your voicemail settings through the prompts as well."]
+        },
+        {
+            "tag":"",
+            "patterns":"",
+            "responses":""
+        },
+        {
+            "tag":"airtel postpaid",
+            "patterns":["What is Airtel Postpaid?"],
+            "responses":["Postpaid is a telecom service plan where you are billed a predetermined amount at the end of the month of usage. The month is called the billing cycle and may not refer to a calendar month"]
+        },
+        {
+            "tag":"4g sim",
+            "patterns":["How can I upgrade my SIM to Airtel 4G SIM?"],
+            "responses":["You can upgrade to Airtel 4G SIM easily by registering your details here to receive the new Airtel 4G SIM at your doorstep. The new SIM will be sent to you soon and will also have instructions on how to activate the SIM with your number."]
+        },
+        {
+            "tag":"switch airtel prepaid",
+            "patterns":["How to switch from Airtel Prepaid to Postpaid?"],
+            "responses":["To switch from Airtel prepaid to Airtel postpaid, all that you need to do is; 1.Go to the Airtel website. 2.Click on the Prepaid dropdown and then click on the “Switch prepaid to postpaid page”. 3.Once you choose the plan that you would like to opt for, fill up all your details on the form."]
+        },
+        {
+            "tag":"services",
+            "patterns":["What services do you offer?", "Tell me about your services"],
+            "responses":["We offer a wide range of services, including mobile plans, internet, DTH, and more. How can I assist you with our services today?"]
+        },
+        {
+            "tag":"internet_plans",
+            "patterns":["What internet plans do you offer?", "Tell me about your internet packages"],
+            "responses": ["We provide high-speed internet plans, including broadband and 4G. Please specify your location, and I'll share available plans."]
+        },
+        {
+            "tag":"contact_support",
+            "patterns":["How can I contact customer support?", "Customer support contact"],
+            "responses": ["You can reach our customer support team at 1-800-123-4567. Our agents are available 24/7 to assist you."]
+        },
+        {
+            "tag":"other",
+            "patterns": ["Tell me more", "I have another question"],
+            "responses":["Sure, I'm here to help. Please ask your question."]
+        },
+        {
+            "tag":"call_forward",
+            "patterns":["How do I set up call forwarding on my phone?"],
+            "responses":["To set up call forwarding, open your phone's dialer and enter the appropriate forwarding code followed by the destination number. For example, to forward all calls, dial '*72' followed by the number you want calls to be forwarded to. To disable call forwarding, dial '*73'"]
+        },
+        {
+            "tag":"mobile_hotspot",
+            "patterns":["How do I set up a mobile hotspot?"],
+            "responses":["Setting up a mobile hotspot is easy. On most smartphones, you can go to the settings menu, select 'Network & Internet,' and then choose 'Hotspot & Tethering.'From there, you can enable the hotspot and set a password. This will allow you to share your mobile data with other devices like laptops and tablets."]
+        },
+        {
+            "tag":"phone_change",
+            "patterns":["What's the procedure for changing my phone number?"],
+            "responses":["If you'd like to change your phone number, please visit one of our retail stores with a valid photo ID. Our staff will assist you in selecting a new number and updating it in our system. Keep in mind that there may be a fee associated with changing your phone number"]
+        },
+        {
+            "tag":"warranty_policy",
+            "patterns":["What's the warranty policy for my device?"],
+            "responses":["Most devices come with a manufacturer's warranty that covers defects and malfunctions. The duration and coverage may vary by device. You can check the warranty information on our website or contact our customer service for details. We also offer extended warranty plans for additional coverage."]
+        },
+        {
+            "tag":"low_data",
+            "patterns":["Can I add more data to my plan if I'm running low?"],
+            "responses":["Absolutely! If you're running low on data, you can log in to your account and navigate to the 'Add-Ons' section. Here, you can choose to add more data to your plan for the current billing cycle. This will help you avoid overage charges and stay connected."]
+        },
+        {
+            "tag":"refund_overrecharge",
+            "patterns":["What's the process for requesting a refund for an overcharge?"],
+            "responses":["If you believe you've been overcharged, you can contact our customer service hotline with your account details and the details of the charge in question. Our representatives will review the situation and assist you in resolving the issue and processing a refund if applicable."]
+        },
+        {
+            "tag":"data_charges",
+            "patterns":["What are the charges for data pack?"],
+            "responses":["For 1GB:Rs.200/month, 1.5GB:Rs.180, 2GB: Rs.220/month"]
+        },
+        {
+            "tag":"unused_data",
+            "patterns":[" What happens to my unused data from data packs ?"],
+            "responses":["Any unused data from data packs will be added to the Rollover quota subject to maximum limit of 200GB"]
+        },
+        {
+            "tag":"incoming_free",
+            "patterns":["Is incoming SMS free while roaming?"],
+            "responses":["Yes"]
+        },
+        {
+            "tag":"porting_number",
+            "patterns":["What are the charges to be paid for porting a mobile number?"],
+            "responses":["The upper limit for the Per Port Transaction Charge is Rupees six and forty-six paisa only for each porting request, if asked by the operator to whom you wish to submit the request."]
+        },
+        {
+            "tag":"broadband_speed",
+            "patterns":["What is the permissible minimum Broadband speed limit?"],
+            "responses":["As per the regulation on “Quality of Service standards for Broadband Services” issued by TRAI on 6th October, 2006, a subscriber should get minimum 80% of the subscribed broadband connection speed from ISP Node to user."]
+        },
+        {
+            "tag":"download_speed",
+            "patterns":[" What is the minimum download speed prescribed for broadband service provider?"],
+            "responses":["As per quality of service of broadband service (Second Amendment) regulations, 2014 a minimum download speed of 512 kbps will be provided to an individual subscribers by the service provider."]
+        },
+        {
+            "tag":"",
+            "patterns":"",
+            "responses":""
+        },
+        {
+            "tag":"",
+            "patterns":"",
+            "responses":""
+        },
+        {
+            "tag":"",
+            "patterns":"",
+            "responses":""
+        },
+        {
+            "tag":"",
+            "patterns":"",
+            "responses":""
+        }
+    ]
+}
