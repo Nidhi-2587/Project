@@ -296,6 +296,6 @@
             "tag":"SOP",
             "patterns":["What is the SOP if customer has forgotten his Login ID?"],
             "responses":["Customer needs to contact Airtel and receive the entitlement ID from their customer support. Share this ID with Amazon customer support to get help with login credentials."]
-        },
+        }
     ]
 }
