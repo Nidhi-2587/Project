@@ -51,7 +51,7 @@
             "Basic,Standard and Premium data plans"]
         },
         {
-            "tag":"network_connection",
+            "tag":"network connection",
             "patterns": [
                 "I'm facing network issues in my area. What should I do?", 
                
@@ -63,7 +63,7 @@
             ]
         },
         {
-            "tag":"internet_dropping",
+            "tag":"internet dropping",
             "patterns":["My internet is really slow and it keeps dropping out"],
             "responses":["I see. That sounds like a problem with your modem.Can you please check the power and cables to make sure they're connected properly?"]
         },
@@ -140,12 +140,12 @@
             "responses":["We offer a wide range of services, including mobile plans, internet, DTH, and more. How can I assist you with our services today?"]
         },
         {
-            "tag":"internet_plans",
+            "tag":"internet plans",
             "patterns":["What internet plans do you offer?", "Tell me about your internet packages"],
             "responses": ["We provide high-speed internet plans, including broadband and 4G. Please specify your location, and I'll share available plans."]
         },
         {
-            "tag":"contact_support",
+            "tag":"contact support",
             "patterns":["How can I contact customer support?", "Customer support contact"],
             "responses": ["You can reach our customer support team at 1-800-123-4567. Our agents are available 24/7 to assist you."]
         },
@@ -155,92 +155,92 @@
             "responses":["Sure, I'm here to help. Please ask your question."]
         },
         {
-            "tag":"call_forward",
+            "tag":"call forward",
             "patterns":["How do I set up call forwarding on my phone?"],
             "responses":["To set up call forwarding, open your phone's dialer and enter the appropriate forwarding code followed by the destination number. For example, to forward all calls, dial '*72' followed by the number you want calls to be forwarded to. To disable call forwarding, dial '*73'"]
         },
         {
-            "tag":"mobile_hotspot",
+            "tag":"mobile hotspot",
             "patterns":["How do I set up a mobile hotspot?"],
             "responses":["Setting up a mobile hotspot is easy. On most smartphones, you can go to the settings menu, select 'Network & Internet,' and then choose 'Hotspot & Tethering.'From there, you can enable the hotspot and set a password. This will allow you to share your mobile data with other devices like laptops and tablets."]
         },
         {
-            "tag":"phone_change",
+            "tag":"phone change",
             "patterns":["What's the procedure for changing my phone number?"],
             "responses":["If you'd like to change your phone number, please visit one of our retail stores with a valid photo ID. Our staff will assist you in selecting a new number and updating it in our system. Keep in mind that there may be a fee associated with changing your phone number"]
         },
         {
-            "tag":"warranty_policy",
+            "tag":"warranty policy",
             "patterns":["What's the warranty policy for my device?"],
             "responses":["Most devices come with a manufacturer's warranty that covers defects and malfunctions. The duration and coverage may vary by device. You can check the warranty information on our website or contact our customer service for details. We also offer extended warranty plans for additional coverage."]
         },
         {
-            "tag":"low_data",
+            "tag":"low data",
             "patterns":["Can I add more data to my plan if I'm running low?"],
             "responses":["Absolutely! If you're running low on data, you can log in to your account and navigate to the 'Add-Ons' section. Here, you can choose to add more data to your plan for the current billing cycle. This will help you avoid overage charges and stay connected."]
         },
         {
-            "tag":"refund_overrecharge",
+            "tag":"refund overrecharge",
             "patterns":["What's the process for requesting a refund for an overcharge?"],
             "responses":["If you believe you've been overcharged, you can contact our customer service hotline with your account details and the details of the charge in question. Our representatives will review the situation and assist you in resolving the issue and processing a refund if applicable."]
         },
         {
-            "tag":"data_charges",
+            "tag":"data charges",
             "patterns":["What are the charges for data pack?"],
             "responses":["For 1GB:Rs.200/month, 1.5GB:Rs.180, 2GB: Rs.220/month"]
         },
         {
-            "tag":"unused_data",
+            "tag":"unused data",
             "patterns":["What happens to my unused data from data packs ?"],
             "responses":["Any unused data from data packs will be added to the Rollover quota subject to maximum limit of 200GB"]
         },
         {
-            "tag":"incoming_free",
+            "tag":"incoming free",
             "patterns":["Is incoming SMS free while roaming?"],
             "responses":["Yes"]
         },
         {
-            "tag":"porting_number",
+            "tag":"porting number",
             "patterns":["What are the charges to be paid for porting a mobile number?"],
             "responses":["The upper limit for the Per Port Transaction Charge is Rupees six and forty-six paisa only for each porting request, if asked by the operator to whom you wish to submit the request."]
         },
         {
-            "tag":"broadband_speed",
+            "tag":"broadband speed",
             "patterns":["What is the permissible minimum Broadband speed limit?"],
             "responses":["As per the regulation on “Quality of Service standards for Broadband Services” issued by TRAI on 6th October, 2006, a subscriber should get minimum 80% of the subscribed broadband connection speed from ISP Node to user."]
         },
         {
-            "tag":"download_speed",
+            "tag":"download speed",
             "patterns":[" What is the minimum download speed prescribed for broadband service provider?"],
             "responses":["As per quality of service of broadband service (Second Amendment) regulations, 2014 a minimum download speed of 512 kbps will be provided to an individual subscribers by the service provider."]
         },
         {
-            "tag":"warranty_policy",
+            "tag":"warranty policy",
             "patterns":["What's the warranty policy for my device?"],
             "responses":["Most devices come with a manufacturer's warranty that covers defects and malfunctions. The duration and coverage may vary by device. You can check the warranty information on our website or contact our customer service for details. We also offer extended warranty plans for additional coverage."]
         },
         {
-            "tag":"new_prepaid",
+            "tag":"new prepaid",
             "patterns":["What's the procedure for activating a new prepaid SIM card?"],
             "responses":["Activating a new prepaid SIM card is easy. Insert the SIM card into your phone and power it on. You'll receive a welcome message with activation instructions. Follow the prompts to complete the activation process, which may include selecting a plan and adding credit."]
         },
         {
-            "tag":"conferennce_call",
+            "tag":"conferennce call",
             "patterns":["How can I set up a conference call?"],
             "responses":["Setting up a conference call is easy. During a call, use the 'Add Call' or 'Conference' button on your phone's dialer. Dial the second participant's number, and when they answer, choose the 'Merge' or 'Conference' option. You can add more participants using the same process."]
         },
         {
-            "tag":"phone_plan",
+            "tag":"phone plan",
             "patterns":["Can I change my phone plan in the middle of a billing cycle?"],
             "responses":["Yes, you can change your phone plan during a billing cycle. Log in to your account on our website and navigate to the 'Plan' or 'Services' section. Choose the option to change your plan and follow the prompts. The changes will typically take effect from your next billing cycle."]
         },
         {
-            "tag":"fair_speed",
+            "tag":"fair speed",
             "patterns":["What is the fair speed usage limit in case of unlimited data plan?"],
             "responses":["This is the limit of data consumption upto which the subscriber get the promised speed. After the limit get exhausted, the speed is reduced. TRAI has mandated the Telecom Service Provider clearly specifying their fair usage limit and the data speed to be provided after the fair usage limit gets exhausted."]
         },
         {
-            "tag":"balance_after",
+            "tag":"balance after",
             "patterns":["I can't see my balance after the recharge"],
             "responses":["Sometimes,it takes up to 30 minutes for the mobile recharge benefits to reflect in your account."]
         },
@@ -250,7 +250,7 @@
             "responses":["A telecom system is a network of communications facilities and equipment that are used to transmit voice, data, and video traffic. A legacy telecom system is an older system that has been in use for many years. These systems are often complex and expensive to maintain. However, they can be very reliable and offer a wide range of features. Legacy telecom systems are often replaced by newer, more modern systems. However, in some cases, these older systems may still be the best option for a particular application so an API (software intermediary) may be implemented to maintain a working connection."]
         },
         {
-            "tag":"airtel_benefits",
+            "tag":"airtel benefits",
             "patterns":["I am not an Airtel Customer, how can I get access to these benefits?"],
             "responses":["To join the Airtel Thanks program, you must become an Airtel prepaid/ postpaid or broadband customer. To switch to Airtel, please visit your nearest Airtel Store."]
         },
