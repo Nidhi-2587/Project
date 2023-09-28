@@ -115,9 +115,9 @@
                         "You can record a personalized greeting and manage your voicemail settings through the prompts as well."]
         },
         {
-            "tag":"",
-            "patterns":"",
-            "responses":""
+            "tag":"upgrade_phone",
+            "patterns":["Can I upgrade my phone?"],
+            "responses":["Of course! We offer a range of smartphones for upgrade. To see your eligibility and explore available options, please provide me with your account number or registered phone number. I'll check if you're eligible for an upgrade and show you the latest devices you can choose from."]
         },
         {
             "tag":"airtel postpaid",
@@ -191,7 +191,7 @@
         },
         {
             "tag":"unused_data",
-            "patterns":[" What happens to my unused data from data packs ?"],
+            "patterns":["What happens to my unused data from data packs ?"],
             "responses":["Any unused data from data packs will be added to the Rollover quota subject to maximum limit of 200GB"]
         },
         {
@@ -215,20 +215,91 @@
             "responses":["As per quality of service of broadband service (Second Amendment) regulations, 2014 a minimum download speed of 512 kbps will be provided to an individual subscribers by the service provider."]
         },
         {
-            "tag":"",
-            "patterns":"",
-            "responses":""
+            "tag":"warranty_policy",
+            "patterns":["What's the warranty policy for my device?"],
+            "responses":["Most devices come with a manufacturer's warranty that covers defects and malfunctions. The duration and coverage may vary by device. You can check the warranty information on our website or contact our customer service for details. We also offer extended warranty plans for additional coverage."]
         },
         {
-            "tag":"",
-            "patterns":"",
-            "responses":""
+            "tag":"new_prepaid",
+            "patterns":["What's the procedure for activating a new prepaid SIM card?"],
+            "responses":["Activating a new prepaid SIM card is easy. Insert the SIM card into your phone and power it on. You'll receive a welcome message with activation instructions. Follow the prompts to complete the activation process, which may include selecting a plan and adding credit."]
         },
         {
-            "tag":"",
-            "patterns":"",
-            "responses":""
+            "tag":"conferennce_call",
+            "patterns":["How can I set up a conference call?"],
+            "responses":["Setting up a conference call is easy. During a call, use the 'Add Call' or 'Conference' button on your phone's dialer. Dial the second participant's number, and when they answer, choose the 'Merge' or 'Conference' option. You can add more participants using the same process."]
         },
+        {
+            "tag":"phone_plan",
+            "patterns":["Can I change my phone plan in the middle of a billing cycle?"],
+            "responses":["Yes, you can change your phone plan during a billing cycle. Log in to your account on our website and navigate to the 'Plan' or 'Services' section. Choose the option to change your plan and follow the prompts. The changes will typically take effect from your next billing cycle."]
+        },
+        {
+            "tag":"fair_speed",
+            "patterns":["What is the fair speed usage limit in case of unlimited data plan?"],
+            "responses":["This is the limit of data consumption upto which the subscriber get the promised speed. After the limit get exhausted, the speed is reduced. TRAI has mandated the Telecom Service Provider clearly specifying their fair usage limit and the data speed to be provided after the fair usage limit gets exhausted."]
+        },
+        {
+            "tag":"balance_after",
+            "patterns":["I can't see my balance after the recharge"],
+            "responses":["Sometimes,it takes up to 30 minutes for the mobile recharge benefits to reflect in your account."]
+        },
+        {
+            "tag":"legacy system",
+            "patterns":["What is a legacy system in telecom?"],
+            "responses":["A telecom system is a network of communications facilities and equipment that are used to transmit voice, data, and video traffic. A legacy telecom system is an older system that has been in use for many years. These systems are often complex and expensive to maintain. However, they can be very reliable and offer a wide range of features. Legacy telecom systems are often replaced by newer, more modern systems. However, in some cases, these older systems may still be the best option for a particular application so an API (software intermediary) may be implemented to maintain a working connection."]
+        },
+        {
+            "tag":"airtel_benefits",
+            "patterns":["I am not an Airtel Customer, how can I get access to these benefits?"],
+            "responses":["To join the Airtel Thanks program, you must become an Airtel prepaid/ postpaid or broadband customer. To switch to Airtel, please visit your nearest Airtel Store."]
+        },
+        {
+            "tag":"airtel rewards",
+            "patterns":["What is ‘Airtel Rewards’?"],
+            "responses":["Airtel Rewards is a program available only to Airtel Thanks App users on Android where they stand the chance to win exciting rewards from brands across several categories when they perform a specific set of tasks related to Airtel digital & telco products."]
+        },
+        {
+            "tag":"find rewards",
+            "patterns":[" How can I find rewards in my Airtel Thanks App?"],
+            "responses":["To find your rewards (available, claimed or redeemed) or to understand what actions can earn you rewards, you can go to Airtel Thanks Android App home and tap on Discover airtelThanks. Your Thanks tier benefits will be visible. From here, you can switch tab to ‘Rewards’ to know all about Airtel Rewards."]
+        },
+        {
+            "tag":"redeem reward",
+            "patterns":["How do I redeem my reward?"],
+            "responses":["Read through the terms of the offer, and if interested, you can click on ‘Redeem’ subsequently to navigate to the brand website to avail the reward / offer using the given coupon code. If you do not understand any condition or have another query regarding the reward, please reach out to the respective brand’s support mail ID or contact number listed on the reward page"]
+        },
+        {
+            "tag":"airtel amazon prime",
+            "patterns":["What is Prepaid Airtel Amazon Prime offer?"],
+            "responses":["Airtel is offering Amazon Prime membership at no extra cost for its Prepaid customers recharging with a RS. 349 recharge. On recharging with the Rs 349 recharge, the customer gets Telco benefits of Unlimited Calling, 2GB data per day and Amazon Prime membership valid for for 28 days. With Amazon Prime membership customers can enjoy unlimited streaming anytime, anywhere movies and TV shows on Prime Video including the latest and exclusive blockbuster Hollywood, Bollywood and Indian Regional movies, top TV shows. In addition, members can get access to Prime Reading and unlimited free fast shipping on millions of items along with early and exclusive access to deals on www.Amazon.in"]
+        },
+        {
+            "tag":"Rc 349",
+            "patterns":[" Is this offer – RC 349: Amazon Prime prepaid available to All Airtel prepaid customers?"],
+            "responses":["Yes, this recharge is open & available to All Airtel prepaid customers"]
+        },
+        {
+            "tag":"Rs 349",
+            "patterns":["What will happen if customer recharges with Rs 349 before his existing pack is expired?"],
+            "responses":["The existing rule of Telco accretive validity will stay as is i.e. the current pack validity and benefit will remain as is. Once existing pack validity is over, benefits of 349 pack will start i.e, 2GB Data per day, UL calling and Amazon Prime membership for 28 days."]
+        },
+        {
+            "tag":"Prime subscription",
+            "patterns":["Will customer be charged anything extra from Amazon for Prime subscription?"],
+            "responses":["No, customer won’t be charged anything extra for Amazon Prime subscription for 28 days"]
+        },
+        {
+            "tag":"screen/devices",
+            "patterns":["On how many screen / devices can I see the Prime video?"],
+            "responses":["Prime video can be downloaded on multiple devices and be used with same login credentials however only 3 devices can simultaneously view the content."]
+        },
+        {
+            "tag":"SOP",
+            "patterns":["What is the SOP if customer has forgotten his Login ID?"],
+            "responses":["Customer needs to contact Airtel and receive the entitlement ID from their customer support. Share this ID with Amazon customer support to get help with login credentials."]
+        },
+       
         {
             "tag":"",
             "patterns":"",
