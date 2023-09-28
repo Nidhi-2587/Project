@@ -81,8 +81,6 @@
             "responses":[
                 "You can easily check your current data usage by logging into your account on our website or using our mobile app. Alternatively, you can text 'USAGE' to 12345 from your registered mobile number, and we'll send you an update on your remaining data balance.",
                 "Dial 12345 from your registered mobile number"
-                
-                
             ]
         },
         {
@@ -115,7 +113,7 @@
                         "You can record a personalized greeting and manage your voicemail settings through the prompts as well."]
         },
         {
-            "tag":"upgrade_phone",
+            "tag":"upgrade phone",
             "patterns":["Can I upgrade my phone?"],
             "responses":["Of course! We offer a range of smartphones for upgrade. To see your eligibility and explore available options, please provide me with your account number or registered phone number. I'll check if you're eligible for an upgrade and show you the latest devices you can choose from."]
         },
@@ -225,7 +223,7 @@
             "responses":["Activating a new prepaid SIM card is easy. Insert the SIM card into your phone and power it on. You'll receive a welcome message with activation instructions. Follow the prompts to complete the activation process, which may include selecting a plan and adding credit."]
         },
         {
-            "tag":"conferennce call",
+            "tag":"conference call",
             "patterns":["How can I set up a conference call?"],
             "responses":["Setting up a conference call is easy. During a call, use the 'Add Call' or 'Conference' button on your phone's dialer. Dial the second participant's number, and when they answer, choose the 'Merge' or 'Conference' option. You can add more participants using the same process."]
         },
@@ -299,11 +297,5 @@
             "patterns":["What is the SOP if customer has forgotten his Login ID?"],
             "responses":["Customer needs to contact Airtel and receive the entitlement ID from their customer support. Share this ID with Amazon customer support to get help with login credentials."]
         },
-       
-        {
-            "tag":"",
-            "patterns":"",
-            "responses":""
-        }
     ]
 }
