@@ -7,8 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AirTel Website</title>
 
-    <link rel="stylesheet" href="chat.css">
-    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/chat.css') }}">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 body {
@@ -24,7 +25,7 @@ h2{text-align: center;}
 </style>
 </head>
 
-<body background="C:\Users\user\Downloads\download.jpg">
+<body background="https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=1380&t=st=1695878160~exp=1695878760~hmac=fd70283f3e49aa60ced4bc4c55fe09842ac93c030e49822eb454d324e441c627">
     
     <div class="chat-bar-collapsible">
         <button id="chat-button" type="button" class="collapsible">Chat with us!
@@ -69,10 +70,10 @@ h2{text-align: center;}
         </div>
 
     </div>
-<img src="C:\Users\user\Downloads\airtel-red.svg"
+<img src="https://assets.airtel.in/static-assets/new-home/img/airtel-red.svg"
 width="100"
 height="100"/> <h1 style="font-family:Monospaced">WELCOME TO AIRTEL'S HOMEPAGE</h1>
-<p style="font-family:verdana"><br>Bharti Airtel Limited is a leading telecommunication company globally. Headquartered in New Delhi, we are the most trusted provider of ICT services with a global network across the USA, Europe, Africa, Middle East, Asia-Pacific, India, and SAARC regions. Airtel Telecommunications ranks amongst the top 3 mobile service providers around the world (as per subscribers)
+<p style="font-family:verdana"><br><b>Bharti Airtel Limited is a leading telecommunication company globally. Headquartered in New Delhi, we are the most trusted provider of ICT services with a global network across the USA, Europe, Africa, Middle East, Asia-Pacific, India, and SAARC regions. Airtel Telecommunications ranks amongst the top 3 mobile service providers around the world (as per subscribers)
 
 Through the diverse product portfolio and strategically located submarine cables and satellite network running across 365,000+ RKMs in 50 countries and 5 continents, we are pushing the boundaries in digital service delivery with a key focus on enhanced end-user experience, round-the-clock infrastructure availability, and superior service quality.<b></p><br><br>
 
@@ -88,8 +89,6 @@ In summary, Airtel Fiber is more than just high-speed internet; it's a gateway t
 <font size="50%"><a href="https://www.airtel.in/">For more info click here</a></font>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="responses.js"></script>
-<script src="chat.js"></script>
+<script src="{{ url_for('static', filename='js/chat1.js') }}"></script>
 
 </html>
-
