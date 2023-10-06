@@ -49,6 +49,7 @@ firstBotMessage();
 // Function to send a POST request to the server
 function sendMessage() {
     const userInput = document.getElementById("textInput").value;
+   
     
     if (userInput.trim() === "") {
         return;
@@ -68,6 +69,9 @@ function sendMessage() {
     .then(response => response.json())
     .then(data => {
         displayMessage(data.response);
+
+
+
     })
     .catch(error => {
         console.error("Error:", error);
@@ -95,6 +99,7 @@ function displayMessage(message) {
 
     // Scroll to the bottom of the chatbox to show the latest message
     document.getElementById("chat-bar-bottom").scrollIntoView(true);
+    
 }
 
 // Event listener for the Enter key
@@ -114,12 +119,14 @@ document.addEventListener("DOMContentLoaded", function () {
     sendMessage();
 });
 
-function heartButton() {
-    const userInput = "Heart clicked!";
-
-    let userHtml = '<p class="userText"><span>' + userInput + '</span></p>';
+// Event listener for the chat button
+document.getElementById("chat-button").addEventListener("click", function () {
+    // Change the color of the chat icon when clicked
+    document.getElementById("chat-icon").style.color = "green";
     
-    $("#textInput").val("");
-    $("#chatbox").append(userHtml);
-    document.getElementById("chat-bar-bottom").scrollIntoView(true);
-}
+    // Optionally, you can reset the color after a certain delay
+    setTimeout(function () {
+        document.getElementById("chat-icon").style.color = "#fff"; // Reset to the original color
+    }, 1000); // Change back to the original color after 1 second (adjust the delay as needed)
+});
+
