@@ -1,4 +1,3 @@
-// Collapsible
 var coll = document.getElementsByClassName("collapsible");
 
 for (let i = 0; i < coll.length; i++) {
@@ -33,7 +32,6 @@ function getTime() {
     return time;
 }
 
-// Gets the first message
 function firstBotMessage() {
     let firstMessage = "How can I help you?"
     document.getElementById("botStarterMessage").innerHTML = '<p class="botText"><span>' + firstMessage + '</span></p>';
@@ -46,7 +44,6 @@ function firstBotMessage() {
 
 firstBotMessage();
 
-// Function to send a POST request to the server
 function sendMessage() {
     const userInput = document.getElementById("textInput").value;
    
@@ -87,7 +84,6 @@ function sendMessage() {
     document.getElementById("chat-bar-bottom").scrollIntoView(true);
 }
 
-// Function to display a user or chatbot message in the chatbox
 function displayMessage(message) {
     const chatbox = document.getElementById("chatbox");
     const messageElement = document.createElement("div");
@@ -97,34 +93,27 @@ function displayMessage(message) {
 
     chatbox.appendChild(messageElement);
 
-    // Scroll to the bottom of the chatbox to show the latest message
     document.getElementById("chat-bar-bottom").scrollIntoView(true);
     
 }
 
-// Event listener for the Enter key
 document.getElementById("textInput").addEventListener("keypress", function (event) {
     if (event.key === "Enter") {
         sendMessage();
     }
 });
 
-// Event listener for the send button
 document.querySelector(".fa-send").addEventListener("click", function () {
     sendMessage();
 });
 
-// Initial message when the page loads
 document.addEventListener("DOMContentLoaded", function () {
     sendMessage();
 });
 
-// Event listener for the chat button
 document.getElementById("chat-button").addEventListener("click", function () {
-    // Change the color of the chat icon when clicked
     document.getElementById("chat-icon").style.color = "green";
     
-    // Optionally, you can reset the color after a certain delay
     setTimeout(function () {
         document.getElementById("chat-icon").style.color = "#fff"; // Reset to the original color
     }, 1000); // Change back to the original color after 1 second (adjust the delay as needed)
