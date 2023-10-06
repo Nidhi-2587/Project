@@ -52,7 +52,7 @@ class ChatDataset(Dataset):
     def __len__(self):
         return self.n_samples
     
-#hyper parameters
+
 batch_size=8
 hidden_size=8
 output_size=len(tags)
