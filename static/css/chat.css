@@ -68,18 +68,7 @@
     padding: 5px 0px 1px 10px;
 }
 
-.chat-bar-icons {
-    display: flex;
-    justify-content: space-evenly;
-    box-sizing: border-box;
-    inline-size: 25%;
-    float: inline-end;
-    font-size: 20px;
-}
 
-#heart-icon:hover,#send-icon:hover {
-    opacity: .7;
-}
 
 /* Chat bubbles */
 
