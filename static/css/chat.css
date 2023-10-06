@@ -65,7 +65,7 @@
     align-items: center;
     background-color: rgb(235, 235, 235);
     border-radius: 10px 10px 0px 0px;
-    padding: 10px 0px 10px 10px;
+    padding: 5px 0px 1px 10px;
 }
 
 .chat-bar-icons {
@@ -77,7 +77,7 @@
     font-size: 20px;
 }
 
-#chat-icon:hover {
+#heart-icon:hover,#send-icon:hover {
     opacity: .7;
 }
 
@@ -93,8 +93,8 @@
     box-sizing: border-box;
     inline-size: 100%;
     border-radius: 10px;
-    padding: 10px;
-    font-size: 16px;
+    padding: 20px;
+    font-size: 15px;
     color: #000;
     background-color: white;
     outline: none
@@ -170,3 +170,23 @@
         border-radius: 0px;
     }
 }
+.center-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px; /* Adjust margin as needed */
+  }
+  #chat-icon {
+    font-size: 35px;
+    cursor: pointer;
+    margin-right: 30px;
+    transition: color 0.8s;
+    color:#fff;
+    margin-top: -12px;
+    
+  }
+  #chat-icon:hover {
+    color:green;
+  }
+ 
+  
