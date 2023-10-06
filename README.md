@@ -1,2 +1,2 @@
 # Project
-This is my forst project
+This is my first project
